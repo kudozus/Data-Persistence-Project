@@ -4,12 +4,13 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using System.IO;
+using TMPro;
 
 public class LoadGameRankScript : MonoBehaviour
 {
     //Fields for display the player info
 
-    public Text BestPlayerName;
+    public TextMeshProUGUI BestPlayerName;
 
 
     //Static variables for holding the best player data

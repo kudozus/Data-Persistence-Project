@@ -177,7 +177,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 234209224}
-  - component: {fileID: 234209223}
   - component: {fileID: 234209222}
   m_Layer: 0
   m_Name: LoadGameRank
@@ -198,19 +197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20c75a28852d19644bd3aac66a22b6bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BestPlayerName: {fileID: 0}
---- !u!114 &234209223
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 234209221}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44a7c56f1fb953740928acf9cc5f8822, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  BestPlayerName: {fileID: 1951053338}
 --- !u!4 &234209224
 Transform:
   m_ObjectHideFlags: 0
@@ -1101,7 +1088,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1110,7 +1097,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
